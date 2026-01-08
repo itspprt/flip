@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Latihan Soal Pancasila</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #ff0000, #ffffff);
+      min-height: 100vh;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background: #d00000;
+      color: white;
+      position: relative;
+    }
+    header img {
+      width: 80px;
+      position: absolute;
+      top: 15px;
+      left: 20px;
+    }
+    .quiz-box {
+      background: #fff;
+      max-width: 850px;
+      margin: 30px auto;
+      padding: 25px 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+    h2 {
+      text-align: center;
+      color: #d00000;
+      margin-bottom: 15px;
+    }
+    .question {
+      margin: 20px 0;
+      padding: 15px;
+      border-left: 6px solid #d00000;
+      background: #f9f9f9;
+      border-radius: 6px;
+    }
+    .question p {
+      font-weight: bold;
+    }
+    label {
+      display: block;
+      margin: 6px 0;
+    }
+    input[type="text"] {
+      padding: 8px;
+      width: 98%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    button {
+      padding: 12px 25px;
+      border: none;
+      border-radius: 6px;
+      background: #d00000;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+      display: block;
+      margin: 20px auto 0;
+    }
+    button:hover {
+      background: #900000;
+    }
+    .result {
+      margin-top: 25px;
+      padding: 20px;
+      border-radius: 8px;
+      background: #eafbea;
+      border-left: 6px solid #28a745;
+      display: none;
+      font-size: 16px;
+    }
+    footer {
+      text-align: center;
+      margin: 30px 0 15px;
+      font-weight: bold;
+      color: #d00000;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="R.jfif" alt="Garuda Pancasila">
+  <h1>Latihan Soal Pancasila</h1>
+</header>
+
+<div class="quiz-box">
+  <h2>Latihan Soal Pilihan Ganda</h2>
+  <label>Nama: <input type="text" id="nama" required></label>
+
+  <form id="quizForm">
+    <!-- Soal 1 -->
+    <div class="question">
+      <p>1. Sikap tanggung jawab dalam memanfaatkan IPTEK berarti …</p>
+      <label><input type="radio" name="q1" value="a"> a. Menggunakan teknologi tanpa mempertimbangkan dampaknya</label>
+      <label><input type="radio" name="q1" value="b"> b. Menyadari konsekuensi penggunaan IPTEK dan memanfaatkannya secara bijak</label>
+      <label><input type="radio" name="q1" value="c"> c. Menghindari penggunaan teknologi modern sama sekali</label>
+      <label><input type="radio" name="q1" value="d"> d. Membatasi akses IPTEK hanya untuk kepentingan pribadi</label>
+      <label><input type="radio" name="q1" value="e"> e. Membiarkan perkembangan IPTEK tanpa pengawasan</label>
+    </div>
+
+    <!-- Soal 2 -->
+    <div class="question">
+      <p>2. Contoh sikap tanggung jawab dalam penggunaan media sosial adalah …</p>
+      <label><input type="radio" name="q2" value="a"> a. Menyebarkan berita tanpa memeriksa kebenarannya</label>
+      <label><input type="radio" name="q2" value="b"> b. Mengunggah konten yang provokatif untuk menarik perhatian</label>
+      <label><input type="radio" name="q2" value="c"> c. Memanfaatkan media sosial untuk berbagi karya dan pengetahuan positif</label>
+      <label><input type="radio" name="q2" value="d"> d. Menggunakan akun palsu untuk menyerang pihak lain</label>
+      <label><input type="radio" name="q2" value="e"> e. Mengabaikan etika komunikasi dalam dunia maya</label>
+    </div>
+
+    <!-- Soal 3 -->
+    <div class="question">
+      <p>3. Sikap selektif di bidang politik ditunjukkan dengan …</p>
+      <label><input type="radio" name="q3" value="a"> a. Menolak semua informasi politik dari media</label>
+      <label><input type="radio" name="q3" value="b"> b. Menyebarkan isu politik yang belum jelas kebenarannya</label>
+      <label><input type="radio" name="q3" value="c"> c. Memeriksa kebenaran informasi politik melalui sumber resmi</label>
+      <label><input type="radio" name="q3" value="d"> d. Tidak peduli terhadap perkembangan politik nasional</label>
+      <label><input type="radio" name="q3" value="e"> e. Mengutamakan politik identitas dalam kehidupan bermasyarakat</label>
+    </div>
+
+    <!-- Soal 4 -->
+    <div class="question">
+      <p>4. Salah satu bentuk implementasi sikap selektif di bidang politik adalah …</p>
+      <label><input type="radio" name="q4" value="a"> a. Mengabaikan pemilu karena tidak percaya pada politik</label>
+      <label><input type="radio" name="q4" value="b"> b. Memverifikasi berita politik di situs resmi pemerintah sebelum menyebarkannya</label>
+      <label><input type="radio" name="q4" value="c"> c. Mengikuti semua berita politik dari media sosial tanpa kritik</label>
+      <label><input type="radio" name="q4" value="d"> d. Membagikan konten politik provokatif untuk mendapat dukungan</label>
+      <label><input type="radio" name="q4" value="e"> e. Menggunakan teknologi untuk menyebarkan ujaran kebencian</label>
+    </div>
+
+    <!-- Soal 5 -->
+    <div class="question">
+      <p>5. Sikap selektif dalam bidang ekonomi berarti …</p>
+      <label><input type="radio" name="q5" value="a"> a. Membeli produk asing tanpa pertimbangan</label>
+      <label><input type="radio" name="q5" value="b"> b. Mengutamakan gaya hidup konsumtif</label>
+      <label><input type="radio" name="q5" value="c"> c. Mendukung produk dalam negeri dan menggunakan teknologi untuk produktivitas</label>
+      <label><input type="radio" name="q5" value="d"> d. Menolak semua bentuk transaksi digital</label>
+      <label><input type="radio" name="q5" value="e"> e. Menggunakan aplikasi keuangan yang tidak resmi</label>
+    </div>
+
+    <!-- Soal 6 -->
+    <div class="question">
+      <p>6. Contoh nyata sikap selektif di bidang ekonomi adalah …</p>
+      <label><input type="radio" name="q6" value="a"> a. Menggunakan aplikasi keuangan ilegal karena lebih cepat</label>
+      <label><input type="radio" name="q6" value="b"> b. Membeli produk impor meskipun produk lokal tersedia</label>
+      <label><input type="radio" name="q6" value="c"> c. Mengembangkan usaha berbasis teknologi yang memberdayakan potensi lokal</label>
+      <label><input type="radio" name="q6" value="d"> d. Menghabiskan waktu untuk belanja online tanpa kendali</label>
+      <label><input type="radio" name="q6" value="e"> e. Menjadi konsumen pasif dalam ekonomi digital</label>
+    </div>
+
+    <!-- Soal 7 -->
+    <div class="question">
+      <p>7. Kemajuan IPTEK di bidang sosial budaya menuntut sikap selektif agar …</p>
+      <label><input type="radio" name="q7" value="a"> a. Semua budaya asing ditolak mentah-mentah</label>
+      <label><input type="radio" name="q7" value="b"> b. Budaya lokal sepenuhnya digantikan budaya global</label>
+      <label><input type="radio" name="q7" value="c"> c. Budaya asing dapat diambil sisi positifnya tanpa menghilangkan identitas nasional</label>
+      <label><input type="radio" name="q7" value="d"> d. Masyarakat hanya meniru budaya luar tanpa kritik</label>
+      <label><input type="radio" name="q7" value="e"> e. Generasi muda melupakan tradisi leluhur</label>
+    </div>
+
+    <!-- Soal 8 -->
+    <div class="question">
+      <p>8. Contoh implementasi sikap selektif di bidang sosial budaya adalah …</p>
+      <label><input type="radio" name="q8" value="a"> a. Menggunakan media sosial untuk meniru budaya asing secara berlebihan</label>
+      <label><input type="radio" name="q8" value="b"> b. Memperkenalkan budaya lokal melalui platform digital agar dikenal dunia</label>
+      <label><input type="radio" name="q8" value="c"> c. Meninggalkan bahasa daerah demi mengikuti tren global</label>
+      <label><input type="radio" name="q8" value="d"> d. Mengidolakan budaya luar tanpa menghargai budaya sendiri</label>
+      <label><input type="radio" name="q8" value="e"> e. Mengabaikan warisan budaya nasional karena dianggap kuno</label>
+    </div>
+
+    <!-- Soal 9 -->
+    <div class="question">
+      <p>9. Generasi muda dapat menunjukkan sikap tanggung jawab dalam perkembangan IPTEK dengan cara …</p>
+      <label><input type="radio" name="q9" value="a"> a. Melakukan plagiarisme karena lebih praktis</label>
+      <label><input type="radio" name="q9" value="b"> b. Menggunakan teknologi hanya untuk hiburan tanpa produktivitas</label>
+      <label><input type="radio" name="q9" value="c"> c. Menjaga etika digital dan menghargai hak cipta</label>
+      <label><input type="radio" name="q9" value="d"> d. Menyebarkan ujaran kebencian sebagai bentuk ekspresi</label>
+      <label><input type="radio" name="q9" value="e"> e. Menggunakan akun anonim untuk menyerang orang lain</label>
+    </div>
+
+    <!-- Soal 10 -->
+    <div class="question">
+      <p>10. Dari uraian berikut, yang bukan termasuk sikap selektif terhadap pengaruh IPTEK adalah …</p>
+      <label><input type="radio" name="q10" value="a"> a. Memeriksa kebenaran informasi politik</label>
+      <label><input type="radio" name="q10" value="b"> b. Mendukung produk lokal dalam ekonomi digital</label>
+      <label><input type="radio" name="q10" value="c"> c. Melestarikan budaya nasional melalui media teknologi</label>
+      <label><input type="radio" name="q10" value="d"> d. Menyerap nilai-nilai positif budaya asing</label>
+      <label><input type="radio" name="q10" value="e"> e. Menolak semua bentuk perkembangan IPTEK</label>
+    </div>
+
+    <button type="button" onclick="submitQuiz()">Kirim Jawaban</button>
+  </form>
+
+  <div class="result" id="resultBox"></div>
+</div>
+
+<footer>
+  by @ramdani2025
+</footer>
+
+<script>
+  const GOOGLE_FORM_ACTION = "https://docs.google.com/forms/d/e/1FAIpQLScbAZoQvMsalh4mdX7gG82b2HnPRJYN8D6MM8F8eWvdInxDJA/formResponse";
+  const ENTRY_NAME = "entry.48507098";
+  const ENTRY_SCORE = "entry.370195014";
+  const ENTRY_STATUS = "entry.1505961881";
+
+  const correctAnswers = {
+    q1: "b",
+    q2: "c",
+    q3: "c",
+    q4: "b",
+    q5: "c",
+    q6: "c",
+    q7: "c",
+    q8: "b",
+    q9: "c",
+    q10: "e"
+  };
+
+  function submitQuiz() {
+    const nama = document.getElementById("nama").value.trim();
+    if (!nama) { alert("Isi nama dulu!"); return; }
+
+    let score = 0;
+    let total = Object.keys(correctAnswers).length;
+
+    for (let key in correctAnswers) {
+      let selected = document.querySelector(`input[name="${key}"]:checked`);
+      if (selected && selected.value === correctAnswers[key]) score++;
+    }
+
+    let status = score >= total/2 ? "Lulus" : "Remedial";
+
+    const resultBox = document.getElementById("resultBox");
+    resultBox.style.display = "block";
+    resultBox.innerHTML = `<b>${nama}</b><br>Nilai: ${score} dari ${total}<br>Status: ${status}`;
+
+    const formData = new FormData();
+    formData.append(ENTRY_NAME, nama);
+    formData.append(ENTRY_SCORE, score);
+    formData.append(ENTRY_STATUS, status);
+
+    fetch(GOOGLE_FORM_ACTION, { method: "POST", body: formData, mode: "no-cors" })
+      .then(() => console.log("Terkirim ke Google Sheets"))
+      .catch(err => console.error("Gagal kirim", err));
+  }
+</script>
+
+</body>
+</html>
